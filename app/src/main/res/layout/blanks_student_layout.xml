@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/studentQuestionTag"
+        style="@style/TextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="6dp"
+        android:text="Question" />
+
+    <TextView
+        android:id="@+id/blankQuestionText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/TextStyle"
+        android:singleLine="false"
+        android:text="RandomQuestionText"
+        android:layout_below="@+id/studentQuestionTag"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/blankStudentAnswer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/blankQuestionText"
+        android:layout_marginBottom="4dp"
+        android:hint="Enter Answer" />
+</RelativeLayout>

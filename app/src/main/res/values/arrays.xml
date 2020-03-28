@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="examTypes">
+        <item>ExamType</item>
+        <item>MCQ</item>
+        <item>Blanks</item>
+    </string-array>
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/mcqQuestionLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="2dp"
+    android:padding="12dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/studentQuestionTag"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        style="@style/TextStyle"
+        android:text="Question" />
+    <TextView
+        android:id="@+id/mcqQuestionText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/TextStyle"
+        android:singleLine="false"
+        android:text="RandomQuestionText"
+        android:layout_below="@+id/studentQuestionTag"
+        android:layout_marginBottom="8dp" />
+    <RadioGroup
+        android:id="@+id/optionsRadioGroup"
+        android:layout_below="@+id/mcqQuestionText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:text="option 1"
+            android:id="@+id/radioOption1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <RadioButton
+            android:text="option 2"
+            android:id="@+id/radioOption2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <RadioButton
+            android:text="option 3"
+            android:id="@+id/radioOption3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <RadioButton
+            android:text="option 4"
+            android:id="@+id/radioOption4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </RadioGroup>
+</RelativeLayout>

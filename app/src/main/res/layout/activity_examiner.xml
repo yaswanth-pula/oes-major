@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:id="@+id/examLayout"
+    tools:context=".ExaminerActivity">
+
+   <LinearLayout
+       android:id="@+id/examTypeLayout"
+       android:layout_marginTop="16dp"
+       android:layout_width="match_parent"
+       android:orientation="horizontal"
+       android:weightSum="2"
+       android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/examTypeText"
+        style="@style/TextStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/examtype" />
+
+    <Spinner
+        android:id="@+id/examTypeSpinner"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:entries="@array/examTypes" />
+   </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/examTypeLayout"
+        android:layout_marginTop="16dp"
+        android:id="@+id/newExamButton"
+        android:layout_centerHorizontal="true"
+        android:text="create new exam"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>

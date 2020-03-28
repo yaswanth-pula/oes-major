@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp"
+    tools:context=".StudentActivity">
+
+    <TextView
+        android:id="@+id/studentExamCodeText"
+        style="@style/TextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Enter your Exam Code" />
+
+    <EditText
+        android:id="@+id/studentExamCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/studentExamCodeText"
+        android:layout_marginTop="8dp"
+        android:hint="Enter Exam Code"
+        android:inputType="textCapCharacters"
+        android:maxLength="8" />
+
+    <EditText
+        android:id="@+id/studentRoll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/studentExamCode"
+        android:layout_marginTop="8dp"
+        android:hint="Enter Student Roll"
+        android:inputType="textCapCharacters"
+        android:maxLength="10" />
+
+    <Button
+        android:id="@+id/takeExamButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/studentRoll"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:text="Take Exam" />
+
+    <Button
+        android:id="@+id/studentExamSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/studentRoll"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:text="Submit"
+        android:visibility="invisible" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/studentExamLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/takeExamButton"
+        android:layout_marginTop="12dp"
+        android:background="#edece4"
+        android:scrollbars="vertical">
+
+    </androidx.recyclerview.widget.RecyclerView>
+</RelativeLayout>

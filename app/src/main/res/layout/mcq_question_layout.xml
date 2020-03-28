@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mcqQuestionLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/examTypeLayout"
+    android:layout_marginTop="32dp">
+
+    <TextView
+        android:id="@+id/questionTag"
+        style="@style/TextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="4dp"
+        android:text="Question" />
+
+    <EditText
+        android:id="@+id/questionEntry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/questionTag"
+        android:layout_marginBottom="4dp"
+        android:hint="Enter the Question" />
+
+    <EditText
+        android:id="@+id/Option1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/questionEntry"
+        android:layout_marginBottom="4dp"
+        android:hint="Enter option 1" />
+
+    <EditText
+        android:id="@+id/Option2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Option1"
+        android:layout_marginBottom="4dp"
+        android:hint="Enter option 2" />
+
+    <EditText
+        android:id="@+id/Option3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Option2"
+        android:layout_marginBottom="4dp"
+        android:hint="Enter option 3" />
+
+    <EditText
+        android:id="@+id/Option4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Option3"
+        android:layout_marginBottom="4dp"
+        android:hint="Enter option 4" />
+
+    <EditText
+        android:id="@+id/answerKey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Option4"
+        android:layout_marginBottom="4dp"
+        android:hint="Enter Correct Option"
+        android:maxLength="1"
+        android:digits="1234"
+        android:inputType="number" />
+</RelativeLayout>

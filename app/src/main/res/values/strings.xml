@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">OES</string>
+    <string name="examiner">Examiner</string>
+    <string name="student">Student</string>
+    <string name="your_exam_code">Your Exam Code :</string>
+    <string name="randomcode">RandomCode</string>
+    <string name="examtype">ExamType : </string>
+</resources>

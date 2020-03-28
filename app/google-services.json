@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "894757070316",
+    "firebase_url": "https://oes-major.firebaseio.com",
+    "project_id": "oes-major",
+    "storage_bucket": "oes-major.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:894757070316:android:10761fb0c0a3297dba0cc9",
+        "android_client_info": {
+          "package_name": "com.example.oes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "894757070316-8lvnvaj50skg33ddeg4ar6fchsvcqnjg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.oes",
+            "certificate_hash": "d0f4673e22ab68d684aa7ea3717f885b38eacd26"
+          }
+        },
+        {
+          "client_id": "894757070316-qtigpegqdpeh538lj2aq5m5et2o7vvev.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnIaHuyZb9pmFhly0q2AxmTG_ClAw_2Go"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "894757070316-qtigpegqdpeh538lj2aq5m5et2o7vvev.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
